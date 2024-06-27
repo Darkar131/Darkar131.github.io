@@ -462,7 +462,8 @@
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/email-validation.js"></script>
-          
+
+      <!--Sorting Algorithm, Alphabetize courses-->    
       <script>
         document.addEventListener("DOMContentLoaded", function() {
             sortList();
@@ -489,6 +490,23 @@
             }
         }
       </script>
+
+      <!--Email script function IN DEVELOPMENT-->
+          <!--
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+                .then(function() {
+                    alert('Email successfully sent!');
+                }, function(error) {
+                    alert('Failed to send email: ' + JSON.stringify(error));
+                });
+        });
+      </script>
+          -->
+          
 
 </body>
 
