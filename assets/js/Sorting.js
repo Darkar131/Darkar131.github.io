@@ -1,7 +1,7 @@
 //Sorting Algorithm, use for Alphabetically sort courses from A to Z
 function sortList() {
   var list, i, switching, b, shouldSwitch;
-  list = document.getElementById("myList");
+  list = document.getElementById("sortby");
   switching = true;
   while (switching) {
     switching = false;
