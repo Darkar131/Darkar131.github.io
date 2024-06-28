@@ -474,6 +474,7 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    flex: 1;
   }
   
   .portfolio .portfolio-wrap::before {
